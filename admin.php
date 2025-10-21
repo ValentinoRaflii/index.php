@@ -80,15 +80,15 @@
                 
               </a>
             </li>
-            <li class="sidebar-item">
+            <!-- <li class="sidebar-item">
               <a class="sidebar-link justify-content-between"  
                 href="#" aria-expanded="false">
                 <div class="d-flex align-items-center gap-3">
                   <span class="d-flex">
                     <i class="ti ti-shopping-cart"></i>
                   </span>
-                  <span class="hide-menu">eCommerce</span>
-                </div>
+                 <span class="hide-menu">eCommerce</span>
+                </div> -->
                 
               </a>
             </li>
@@ -197,7 +197,7 @@
               <iconify-icon icon="solar:menu-dots-linear" class="nav-small-cap-icon fs-4"></iconify-icon>
               <span class="hide-menu">Apps</span>
             </li>
-            <li class="sidebar-item">
+            <!-- <li class="sidebar-item">
               <a class="sidebar-link justify-content-between has-arrow" href="javascript:void(0)" aria-expanded="false">
                 <div class="d-flex align-items-center gap-3">
                   <span class="d-flex">
@@ -281,7 +281,7 @@
                   </a>
                 </li>
               </ul>
-            </li>
+            </li> -->
             <li class="sidebar-item">
               <a class="sidebar-link justify-content-between has-arrow" href="javascript:void(0)" aria-expanded="false">
                 <div class="d-flex align-items-center gap-3">
