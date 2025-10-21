@@ -107,45 +107,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
           <div class="contact-content">
             <div class="contact-cards-container" data-aos="fade-up" data-aos-delay="300">
-              <div class="contact-card">
-                <div class="icon-box">
-                  <i class="bi bi-geo-alt"></i>
-                </div>
-                <div class="contact-text">
-                  <h4>Location</h4>
-                  <p>Tinanggea, Sulawesi Tenggara, Indonesia</p>
-                </div>
-              </div>
-
-              <div class="contact-card">
-                <div class="icon-box">
-                  <i class="bi bi-envelope"></i>
-                </div>
-                <div class="contact-text">
-                  <h4>Email</h4>
-                  <p>Tinaggea@gmail.com</p>
-                </div>
-              </div>
-
-              <div class="contact-card">
-                <div class="icon-box">
-                  <i class="bi bi-telephone"></i>
-                </div>
-                <div class="contact-text">
-                  <h4>Call</h4>
-                  <p>+62 812-8617-9583</p>
-                </div>
-              </div>
-
-              <div class="contact-card">
-                <div class="icon-box">
-                  <i class="bi bi-clock"></i>
-                </div>
-                <div class="contact-text">
-                  <h4>Open Hours</h4>
-                  <p>Monday–Friday: 9AM – 6PM</p>
-                </div>
-              </div>
             </div>
 
             <div class="contact-form-container" data-aos="fade-up" data-aos-delay="400">
@@ -189,14 +150,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <button type="submit" class="btn btn-primary btn-lg px-5">Kirim Pesan</button>
   </div>
 </form>
-    <div class="social-icons">
-  <a href="#" title="Twitter"><i class="bi bi-twitter"></i></a>
-  <a href="#" title="Facebook"><i class="bi bi-facebook"></i></a>
-  <a href="#" title="Instagram"><i class="bi bi-instagram"></i></a>
-  <a href="#" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
-
-
-            </div>
           </div>
         </div>
       </div>
@@ -204,74 +157,35 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   </main>
 
-  <footer id="footer" class="footer dark-background">
-    <div class="container">
-      <div class="row gy-5">
-        <div class="col-lg-4">
-          <div class="footer-brand">
-            <a href="index.php" class="logo d-flex align-items-center mb-3">
-              <span class="sitename">Tinanggea.id</span>
-            </a>
-            <p class="tagline">Profil Wilayah Kecamatan Tinanggea – Kabupaten Konawe Selatan.</p>
-            <div class="social-links mt-4">
-              <a href="#"><i class="bi bi-facebook"></i></a>
-              <a href="#"><i class="bi bi-instagram"></i></a>
-              <a href="#"><i class="bi bi-linkedin"></i></a>
-              <a href="#"><i class="bi bi-twitter-x"></i></a>
-            </div>
-          </div>
+<!-- email dan kontak -->
+<footer id="footer" class="footer dark-background call-to-action">
+  <div class="container">
+    <!-- Contact Details -->
+    <div class="achievements-grid">
+      <div class="achievement-item" data-aos="zoom-in" data-aos-delay="100">
+        <div class="contact-details">
+          <i class="bi bi-telephone-fill"></i>
         </div>
-
-        <div class="col-lg-6">
-          <div class="footer-links-grid">
-            <div class="row">
-              <div class="col-6 col-md-4">
-                <h5>Informasi</h5>
-                <ul class="list-unstyled">
-                  <li><a href="about.php">Topografi</a></li>
-                  <li><a href="services.php">Batas Wilayah</a></li>
-                  <li><a href="projects.php">Pertumbuhan Penduduk</a></li>
-                  <li><a href="quote.php">Administrasi</a></li>
-                </ul>
-              </div>
-              <div class="col-6 col-md-4">
-                <h5>Layanan</h5>
-                <ul class="list-unstyled">
-                  <li><a href="contact.php">Kontak</a></li>
-                  <li><a href="#">Bantuan</a></li>
-                  <li><a href="#">Kebijakan Privasi</a></li>
-                  <li><a href="#">Syarat Layanan</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
+        <div class="achievement-info">
+          <span>0812-4553-0549</span>
         </div>
-
-        <div class="col-lg-2">
-          <div class="footer-cta">
-            <h5>Hubungi Kami</h5>
-            <a href="page_input.php" class="btn btn-outline">$_POST in Touch</a>
-          </div>
+      </div>
+      <!-- Contact Email -->
+      <div class="achievement-item" data-aos="zoom-in" data-aos-delay="100">
+        <div class="contact-details">
+          <i class="bi bi-envelope-fill"></i>
+        </div>
+        <div class="achievement-info">
+          <span>Inefausayana@ymail.com</span>
         </div>
       </div>
     </div>
-
-    <div class="footer-bottom">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="footer-bottom-content">
-              <p class="mb-0">© <span class="sitename">Tinanggea.id</span>. All rights reserved.</p>
-              <div class="credits">
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-              </div>
-            </div>
-          </div>
-        </div>
+  </div>
+      <div class="footer-credit text-center mt-4" data-aos="zoom-in" data-aos-delay="100">
+        <h5>Develop by q-benks Production</h5>
+        <p>kendari 2018</p>
       </div>
-    </div>
-  </footer>
-
+</footer><!-- email dan kontak -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
     <i class="bi bi-arrow-up-short"></i>
   </a>
